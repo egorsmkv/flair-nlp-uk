@@ -1,3 +1,10 @@
+"""
+Install keybert first:
+
+    pip install keybert
+  
+"""
+
 from keybert import KeyBERT
 from flair.embeddings import FlairEmbeddings, StackedEmbeddings
 
