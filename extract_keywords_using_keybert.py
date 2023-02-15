@@ -2,7 +2,10 @@
 Install keybert (https://github.com/MaartenGr/KeyBERT) first:
 
     pip install keybert
-  
+
+Download best-lm.pt from https://huggingface.co/dchaplinsky/flair-uk-backward and save locally as backward-best-lm.pt
+Download best-lm.pt from https://huggingface.co/dchaplinsky/flair-uk-forward and save locally as backward-best-lm.pt
+
 """
 
 from keybert import KeyBERT
